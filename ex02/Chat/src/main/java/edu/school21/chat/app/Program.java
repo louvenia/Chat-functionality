@@ -20,7 +20,7 @@ import java.util.Scanner;
 public class Program {
     private static final String JDBC_URL = "jdbc:postgresql://localhost:5432/postgres";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "060601Yumzhana!";
+    private static final String PASSWORD = "password";
 
     public static void main(String[] args) {
         HikariDataSource ds = new HikariDataSource();
